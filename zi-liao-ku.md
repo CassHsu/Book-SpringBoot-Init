@@ -1,4 +1,4 @@
-資料庫
+# 資料庫
 
 ---
 
@@ -49,7 +49,7 @@ Mac使用者建議Homebrew安裝：
    1. sudo vim /etc/mysql/my.cnf
 
    2. 在\[mysqld\]中加上此行  
-      `[mysqld]    
+      `[mysqld]        
       character-set-server=utf8`
 
    3. 重啟mariadb，service mysql restart

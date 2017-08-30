@@ -12,8 +12,7 @@
    ![](/assets/ying_mu_kuai_zhao_2016_-_07_-_28_shang_wu_12__12__26.png)
 
 3. 安裝成功
-
-4. ```
+   ```
    BUILD SUCCESSFUL
 
    Totaltime:1.576secs

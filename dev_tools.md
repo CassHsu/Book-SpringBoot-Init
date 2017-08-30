@@ -23,10 +23,7 @@
    https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-devtools/1.3.6.RELEASE/spring-boot-devtools-1.3.6.RELEASE.jar
    Download
    https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-devtools/1.3.6.RELEASE/spring-boot-devtools-1.3.6.RELEASE-sources.jar
-
    ```
-
-
 
 
 

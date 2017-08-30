@@ -4,7 +4,7 @@
 
 ## 使用線上範本
 
-1. 線上範本的初始化工具   
+1. 線上範本的初始化工具  
    [http://start.spring.io/](http://start.spring.io/)![](/assets/ying_mu_kuai_zhao_2016_-_07_-_23_xia_wu_2__47__19.png)
 
 2. ## 選用Gradle建置 {#gradle}
@@ -27,9 +27,7 @@
 
    * 匯入成功後，專案結構如下：
 
-     ```
-       ![](/assets/ying_mu_kuai_zhao_2016_-_07_-_23_xia_wu_3__02__07.png)
-     ```
+     ![](/assets/ying_mu_kuai_zhao_2016_-_07_-_23_xia_wu_3__02__07.png)
 
    * 若無上圖下方的Servers，將無法執行，見狀況排除
 

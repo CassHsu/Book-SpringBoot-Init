@@ -49,12 +49,12 @@ Mac使用者建議Homebrew安裝：
    1. sudo vim /etc/mysql/my.cnf
 
    2. 在\[mysqld\]中加上此行  
-      `[mysqld]  
+      `[mysqld]    
       character-set-server=utf8`
 
-   1. 重啟mariadb，service mysql restart
+   3. 重啟mariadb，service mysql restart
 
-   2. 最後確認是否使用utf8
+   4. 最後確認是否使用utf8
 
 #### 
 

@@ -1,5 +1,7 @@
 ## 沒裝過Server Runtime Environments {#server-runtime-environments}
 
+---
+
 ## 情境
 
 * 如下圖Servers欄位顯示 **No servers are available **需要自行下載欲使用的Server![螢幕快照 2017-08-29 下午2.27.11.png](../assets/ying_mu_kuai_zhao_2017-_08_-_29_xia_wu_2__27__11.png)
@@ -22,7 +24,7 @@
 
 3. 指定先前解壓縮位址 &gt; Finish![螢幕快照 2017-08-29 下午3.13.32.png](../assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_3__13__32.png)
 
-4. 安裝完成
+4. 安裝完成  
    ![](/assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_3__14__30.png)
 
 

@@ -1,5 +1,7 @@
 ## 選錯專案類型 {#build-gradle}
 
+---
+
 * 專案內沒看到gradle的檔案卻有pom.xml的，代表選到Maven專案...
 * build.gradle內容目前至少應為：
 

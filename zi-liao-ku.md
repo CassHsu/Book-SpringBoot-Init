@@ -56,8 +56,6 @@ Mac使用者建議Homebrew安裝：
 
    4. 最後確認是否使用utf8
 
-
-
 ## 使用root登入
 
 ---
@@ -89,8 +87,6 @@ GRANT ALL PRIVILEGES ON learn.* TO 'admin';
 1. 新增使用者與設定密碼
 2. 建立資料庫
 3. 授與新帳號使用資料庫權限
-
-
 
 
 

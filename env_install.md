@@ -34,16 +34,21 @@
    1. [http://spring.io/tools/sts](http://spring.io/tools/sts)
    2. 使用方式同Eclipse
    3. 以mac為例，下載檔案：spring-tool-suite-3.9.0.RELEASE-e4.7.0-macosx-cocoa-x86\_64.tar.gz
-   4. 解壓縮出sts-bundle目錄，下圖STS即為可執行入口
+   4. 解壓縮出sts-bundle目錄，下圖STS即為可執行入口![](/assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_1__55__56.png)
+3. 執行STS，選擇WorkSpace位置後進入開發環境（下圖）![螢幕快照 2017-08-29 下午2.03.43.png](assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_2__03__43.png)
 
-![螢幕快照 2017-08-29 下午1.55.56.png](assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_1__55__56.png)
+4. 安裝Gradle
 
-* 1. 執行STS，選擇WorkSpace位置後進入開發環境（下圖）![螢幕快照 2017-08-29 下午2.03.43.png](assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_2__03__43.png)
-* 安裝Gradle  
-  1.  打開sts，前往Help &gt; Eclipse Marketplace 安裝Gardle \(請搜尋 Buildship Gradle\)  
-  2.  下載Buildship Gradle Integration（參考下圖）
+   1. 打開sts，前往Help &gt; Eclipse Marketplace 安裝Gardle \(請搜尋 Buildship Gradle\)
 
-* 下載完成後重新啟動sts
+   2. 下載Buildship Gradle Integration（參考下圖）  
+      ![](/assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_2__11__00.png)
 
-![螢幕快照 2017-08-29 下午2.11.00.png](assets/ying_mu_kuai_zhao_2017_-_08_-_29_xia_wu_2__11__00.png)
+5. 下載完成後重新啟動STS。
+
+
+
+
+
+
 

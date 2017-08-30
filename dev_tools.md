@@ -1,5 +1,7 @@
 # Dev Tools {#dev-tools}
 
+---
+
 ### 採用Gradle安裝 {#gradle}
 
 1. buid.gradle檔中的dependencies內新增comile項目
@@ -12,6 +14,7 @@
    ![](/assets/ying_mu_kuai_zhao_2016_-_07_-_28_shang_wu_12__12__26.png)
 
 3. 安裝成功
+
    ```
    BUILD SUCCESSFUL
 

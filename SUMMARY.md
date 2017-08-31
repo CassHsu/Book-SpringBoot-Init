@@ -23,3 +23,5 @@
 
 ## 開發
 
+* [Controller](dev/controller-new.md)
+

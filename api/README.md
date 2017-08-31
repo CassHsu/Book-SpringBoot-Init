@@ -24,8 +24,6 @@
 | time | 後端回應時間 |
 | datas | 回應資料集物件 |
 
-
-
 ### Response Code 代碼表
 
 | code | 說明 |

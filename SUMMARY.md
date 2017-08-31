@@ -1,5 +1,7 @@
 # Summary
 
+## 環境設定
+
 * [SpringBoot-Init](README.md)
 * [環境&安裝](env_install.md)
 * [建立專案](init_project.md)
@@ -9,6 +11,9 @@
   * [修改Port](condition_exclusion/edit_port.md)
   * [選錯專案類型](condition_exclusion/wrong_proj_type.md)
 * [資料庫](database.md)
+
+## 規格
+
 * [專案架構](proj_arch.md)
 * [API規劃](api/README.md)
   * [查詢](api/get.md)

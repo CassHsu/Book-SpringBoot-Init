@@ -4,35 +4,39 @@
 
 1. ## Request 上行
 
-   1. ### 格式
+   ### 格式
 
-      | 項目 | 內容 |
-      | :--- | :--- |
-      | Http Method | POST |
-      | 路徑 | api/mail/get |
-   2. ### Header
+   | 項目 | 內容 |
+   | :--- | :--- |
+   | Http Method | POST |
+   | 路徑 | api/mail/get |
 
-      | Header Key | Header Value | 說明 |
-      | :--- | :--- | :--- |
-      | Content-Type | application/json |  |
-   3. ### Body
+   ### Header
 
-      | 欄位 | 值 | 說明 |
-      | :--- | :--- | :--- |
-      |  |  |  |
-   4. ### 範例
+   | Header Key | Header Value | 說明 |
+   | :--- | :--- | :--- |
+   | Content-Type | application/json |  |
+
+   ### Body
+
+   | 欄位 | 值 | 說明 |
+   | :--- | :--- | :--- |
+   |  |  |  |
+
+   ### 範例
 2. ## Response 下行
 
-   1. ## Header
+   ## Header
 
-      不需處理
+   不需處理
 
-   2. ## Body
+   ## Body
 
-      | 欄位 | 值 | 說明 |
-      | :--- | :--- | :--- |
-      |  |  |  |
-   3. ## 範例
+   | 欄位 | 值 | 說明 |
+   | :--- | :--- | :--- |
+   |  |  |  |
+
+   ## 範例
 
 ## 
 

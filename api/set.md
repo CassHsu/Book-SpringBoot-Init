@@ -25,7 +25,7 @@ project為必填，其餘要重新指定之欄位才填
 
 | 欄位 | 參數類型 | 必填 | 說明 |
 | :--- | :--- | :--- | :--- |
-| project | String | 是 | 專案代號 |
+| project | int | 是 | 專案編號 |
 | subject | String | 否 | 欲設定之標題 |
 | from | String | 否 | 欲指定之寄件人 |
 | to | String | 否 | 收件人列表，以逗號分隔 |
@@ -36,7 +36,7 @@ project為必填，其餘要重新指定之欄位才填
 
 ```js
 {
-    "project": ""
+    "project": 0,
     "subject": "新主旨",
     "to": "boss@gmail.com,user@gmail.com,user2@gmail.com"
 }

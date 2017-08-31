@@ -10,4 +10,7 @@
   * [選錯專案類型](condition_exclusion/wrong_proj_type.md)
 * [資料庫](database.md)
 * [專案架構](proj_arch.md)
+* [API規劃](api/README.md)
+  * [查詢](api/get.md)
+  * [設定](api/set.md)
 

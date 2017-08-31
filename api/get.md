@@ -13,9 +13,9 @@
 
 ### Header
 
-| Header Key | Header Value | 說明 |
-| :--- | :--- | :--- |
-| Content-Type | application/json |  |
+| Header Key | Header Value |
+| :--- | :--- |
+| Content-Type | application/json |
 
 ### Body
 
@@ -25,19 +25,21 @@
 
 ### 範例
 
+---
+
 ## Response 下行
 
-## Header
+### Header
 
 不需處理
 
-## Body
+### Body
 
 | 欄位 | 值 | 說明 |
 | :--- | :--- | :--- |
 |  |  |  |
 
-## 範例
+### 範例
 
 ## 
 

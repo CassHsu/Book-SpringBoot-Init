@@ -14,9 +14,11 @@
 
 ## 規格
 
-* [專案](proj_arch.md)
+* [需求](proj_arch.md)
 * [Use Case](use-case.md)
 * [API規劃](api/README.md)
   * [查詢](api/get.md)
   * [設定](api/set.md)
+
+## 開發
 

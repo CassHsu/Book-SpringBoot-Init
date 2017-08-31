@@ -4,8 +4,6 @@
 
 ![](/assets/spring_boot_init_uc.png)
 
-
-
 ## User Story
 
 ---

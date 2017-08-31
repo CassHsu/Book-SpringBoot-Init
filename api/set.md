@@ -2,41 +2,42 @@
 
 ---
 
-1. ## Request 上行
+## Request 上行
 
-   ### 格式
+### 格式
 
-   | 項目 | 內容 |
-   | :--- | :--- |
-   | Http Method | POST |
-   | 路徑 | api/mail/set |
+| 項目 | 內容 |
+| :--- | :--- |
+| Http Method | POST |
+| 路徑 | api/mail/set |
 
-   ### Header
+### Header
 
-   | Header Key | Header Value | 說明 |
-   | :--- | :--- | :--- |
-   | Content-Type | application/json |  |
+| Header Key | Header Value | 說明 |
+| :--- | :--- | :--- |
+| Content-Type | application/json |  |
 
-   ### Body
+### Body
 
-   | 欄位 | 值 | 說明 |
-   | :--- | :--- | :--- |
-   |  |  |  |
+| 欄位 | 值 | 說明 |
+| :--- | :--- | :--- |
+|  |  |  |
 
-   ### 範例
-2. ## Response 下行
+### 範例
 
-   ## Header
+## Response 下行
 
-   不需處理
+## Header
 
-   ## Body
+不需處理
 
-   | 欄位 | 值 | 說明 |
-   | :--- | :--- | :--- |
-   |  |  |  |
+## Body
 
-   ## 範例
+| 欄位 | 值 | 說明 |
+| :--- | :--- | :--- |
+|  |  |  |
+
+## 範例
 
 ## 
 

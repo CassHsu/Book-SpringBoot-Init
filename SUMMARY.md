@@ -19,6 +19,7 @@
 * [API規劃](api/README.md)
   * [查詢](api/get.md)
   * [設定](api/set.md)
+* [Table Schema](table-schema.md)
 
 ## 開發
 

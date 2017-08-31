@@ -11,14 +11,6 @@
 * 前端網頁採用AJAX以API與後台Server溝通
 * 打包部署
 
-## 系統概念
-
----
-
-系統架構概念圖如下：
-
-![](/assets/spring_boot_init_arch.png)
-
 ## 使用情境
 
 ---
@@ -33,9 +25,11 @@
 * 提供管理介面供使用者設定修改
 * 資料需要持久化儲存
 
-## Use Case
+## 系統概念
 
 ---
 
-![](/assets/spring_boot_init_uc.png)
+系統架構概念圖如下：
+
+![](/assets/spring_boot_init_arch.png)
 

@@ -9,18 +9,18 @@
       | 項目 | 內容 |
       | :--- | :--- |
       | Http Method | POST |
-      | Url Path | api/mail/set |
+      | 路徑 | api/mail/set |
    2. ### Header
 
       | Header Key | Header Value | 說明 |
       | :--- | :--- | :--- |
       | Content-Type | application/json |  |
    3. ### Body
-   4. | 欄位 | 值 | 說明 |
+
+      | 欄位 | 值 | 說明 |
       | :--- | :--- | :--- |
       |  |  |  |
-
-      ### 範例
+   4. ### 範例
 2. ## Response 下行
 
    1. ## Header
@@ -35,6 +35,8 @@
    3. ## 範例
 
 ## 
+
+
 
 
 

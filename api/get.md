@@ -40,10 +40,11 @@
 
 不需處理
 
-### Body
+### Body中資料欄位
 
 | 欄位 | 參數類型 | 說明 |
 | :--- | :--- | :--- |
+| proj\_name | String | 專案名 |
 | subject | String | 標題 |
 | from | String | 寄件人email |
 | to | String | 收件人email，以逗號分隔 |
@@ -56,6 +57,7 @@
   "msg": " OK",
   "time": "2017-08-31",
   "datas": {
+    "proj_name": "專案名",
     "subject": "排程的郵件主旨",
     "from": "rd@gmail.com",
     "to": "boss@gmail.com,user@gmail.com"

@@ -19,13 +19,14 @@
 
 ### Body
 
-要重新指定之欄位才填
+project為必填，其餘要重新指定之欄位才填
 
-| 欄位 | 參數類型 | 說明 |
-| :--- | :--- | :--- |
-| Subject | String | 欲設定之標題 |
-| From | String | 欲指定之寄件人 |
-| To | String | 欲指定之收件人列表，以逗號分隔 |
+| 欄位 | 參數類型 | 必填 | 說明 |
+| :--- | :--- | :--- | :--- |
+| project | String | 是 | 專案代號 |
+| subject | String | 否 | 欲設定之標題 |
+| from | String | 否 | 欲指定之寄件人 |
+| to | String | 否 | 收件人列表，以逗號分隔 |
 
 ### 範例
 
@@ -33,8 +34,9 @@
 
 ```js
 {
-    "Subject": "新主旨",
-    "To": "boss@gmail.com,user@gmail.com,user2@gmail.com"
+    "project": ""
+    "subject": "新主旨",
+    "to": "boss@gmail.com,user@gmail.com,user2@gmail.com"
 }
 ```
 

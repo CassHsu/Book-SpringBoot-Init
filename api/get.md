@@ -21,7 +21,8 @@
 
 | 欄位 | 值 | 說明 |
 | :--- | :--- | :--- |
-| project | 需求代號\(P\) | 請求專案P之所有郵件資訊 |
+| project | all | 所有專案的郵件資訊 |
+|  | 專案代號 | 請求專案P之所有郵件資訊 |
 
 ### 範例
 
@@ -43,9 +44,9 @@
 
 | 欄位 | 參數類型 | 說明 |
 | :--- | :--- | :--- |
-| Subject | String | 標題 |
-| From | String | 寄件人email |
-| To | String | 收件人email，以逗號分隔 |
+| subject | String | 標題 |
+| from | String | 寄件人email |
+| to | String | 收件人email，以逗號分隔 |
 
 ### 範例
 
@@ -55,9 +56,9 @@
   "msg": " OK",
   "time": "2017-08-31",
   "datas": {
-    "Subject": "排程的郵件主旨",
-    "From": "rd@gmail.com",
-    "To": "boss@gmail.com,user@gmail.com"
+    "subject": "排程的郵件主旨",
+    "from": "rd@gmail.com",
+    "to": "boss@gmail.com,user@gmail.com"
   }
 }
 ```

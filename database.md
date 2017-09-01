@@ -38,7 +38,7 @@ Mac使用者建議Homebrew安裝：
 
 4. Reload privilege tables now? \[Y/n\] Y
 
-5. 使用mysql -p root -p 輸入密碼看是否能登入
+5. 使用mysql -u root -p 輸入密碼看是否能登入
 
    1. ERROR 1698 \(28000\): Access denied for user 'root'@'localhost'
 

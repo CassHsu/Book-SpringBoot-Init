@@ -43,11 +43,11 @@ public @ResponseBody Response mailGet(@RequestBody ReqGetBdy body){
     //接收查詢值
     String projNo = body.project;
 
-    ResGetDatas datas = new ResGetDatas();
-    datas.proj_name = "某排程P";
-    datas.subject = "排程的郵件主旨";
-    datas.from = "rd@gmail.com";
-    datas.to = "boss@gmail.com,user@gmail.com";
+    ResGetDatas req = new ResGetDatas();
+    req.proj_name = "某排程P";
+    req.subject = "排程的郵件主旨";
+    req.from = "rd@gmail.com";
+    req.to = "boss@gmail.com,user@gmail.com";
 
     Response res = new Response();
     res.code = "0000";
@@ -55,7 +55,7 @@ public @ResponseBody Response mailGet(@RequestBody ReqGetBdy body){
     //將查詢的值設定在msg回傳驗證
     res.msg = "project in request body : " + projNo;
     res.time = "2017-09-01";
-    res.datas = datas;
+    res.datas = req;
     return res;
 }
 ```

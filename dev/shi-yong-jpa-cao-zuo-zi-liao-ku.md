@@ -2,6 +2,8 @@
 
 ---
 
+目標：使用Java程式碼自動建立且對應資料表
+
 ### 1. build.gradle
 
 打開build.gradle 檢查dependencies是否有以下
@@ -183,7 +185,7 @@ findAll\(\) 查詢全部資料
 ```java
 //查詢全部
 List<MailEntity> datas = mailRepository.findAll();
-		
+
 //...中略...
 res.datas = datas;
 return res;

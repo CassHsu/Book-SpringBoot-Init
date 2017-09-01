@@ -6,11 +6,13 @@
 
 打開build.gradle 檢查dependencies是否有以下
 
-對JPA的支持，包含spring-data-jpa、spring-orm、Hibernate
+* 對JPA的支持，包含spring-data-jpa、spring-orm、Hibernate
+* 安裝mysql-connector-java
 
 ```
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
 }
 ```
 
@@ -158,16 +160,65 @@ public class Response {
     public String msg;
     public String time;
     public List<MailEntity> datas;
-	
+
     public Response() {
-	// 需有無引數的預設建構子
+    // 需有無引數的預設建構子
     }
 }
 ```
 
+#### 5.3.2 引用Repository
 
+Controller內新增：
 
+```java
+@Autowired
+private MailRepository mailRepository;
+```
 
+#### 5.3.3 使用Repository
+
+findAll\(\) 查詢全部資料
+
+```java
+//查詢全部
+List<MailEntity> datas = mailRepository.findAll();
+		
+//...中略...
+res.datas = datas;
+return res;
+```
+
+#### 5.3.4 執行Server
+
+使用查詢API回應如下：
+
+```
+{
+    "code": "0000",
+    "msg": "project in request body : all",
+    "time": "2017-09-01",
+    "datas": []
+}
+```
+
+datas已經變成中括號，即array的表示法
+
+#### 5.3.5 資料表
+
+進資料庫檢視，確認資料表新增成功
+
+```
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| pno       | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+| proj_name | varchar(255) | NO   |     | NULL    |                |
+| receivers | varchar(255) | NO   |     | NULL    |                |
+| sender    | varchar(255) | NO   |     | NULL    |                |
+| subject   | varchar(255) | NO   |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+```
 
 
 

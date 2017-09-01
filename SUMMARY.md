@@ -28,4 +28,5 @@
 * [回應多層JSON](dev/json-in-json.md)
 * [接收JSON Request](dev/jie-shou-json-request.md)
 * [使用JPA操作資料庫](dev/shi-yong-jpa-cao-zuo-zi-liao-ku.md)
+* [新增資料](dev/xin-zeng-zi-liao.md)
 

@@ -66,14 +66,14 @@ public class MailEntity {
     public String subject;
     public String sender;
     public String receivers;
-    
+
     public MailEntity() {}
 }
 ```
 
 ### 4. 指定與資料表關聯
 
-* @Id
+* @Id  
   主鍵
 
 * @GeneratedValue  
@@ -95,19 +95,19 @@ public class MailEntity {
     @Id
     @GeneratedValue
     public long pno;
-	
+
     @Column(nullable = false)
     public String projName;
-	
+
     @Column(nullable = false)
     public String subject;
-	
+
     @Column(nullable = false)
     public String sender;
-	
+
     @Column(nullable = false)
     public String receivers;
-	
+
     public MailEntity() {}
 }
 ```
@@ -139,6 +139,33 @@ public interface MailRepository extends JpaRepository<MailEntity, Long> {
 ```
 
 ### 5.3 在Controller內使用
+
+Controller內進行資料庫存取
+
+#### 5.3.1 調整Response內datas格式
+
+因為要顯示多筆的Entity故型態需調整為List&lt;MailEntity&gt;
+
+```java
+package com.example.demo.response;
+
+import java.util.List;
+
+import com.example.demo.db.MailEntity;
+
+public class Response {
+    public String code;
+    public String msg;
+    public String time;
+    public List<MailEntity> datas;
+	
+    public Response() {
+	// 需有無引數的預設建構子
+    }
+}
+```
+
+
 
 
 

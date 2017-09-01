@@ -66,13 +66,83 @@ public @ResponseBody Response mailGet(@RequestBody ReqGetBdy body){
 }
 ```
 
-結果如下![](/assets/json_req_01.png)
+執行結果如下![](/assets/json_req_01.png)
 
-## 設定
+## 2. 設定
 
 ---
 
-### 建立接收對應類別
+### 2.1 建立接收對應類別
+
+1. 建立新類別ReqSetBdy.java
+2. 依照查詢的上行電文建立屬性
+3. 為方便打印內容，指定toString方法
+
+```java
+package com.example.demo.request;
+
+public class ReqSetBdy {
+    public String project;
+    public String subject;
+    public String from;
+    public String to;
+
+    public ReqSetBdy() {
+    // 需有無引數的預設建構子
+    }
+
+    @Override
+    public String toString() {
+    return "ReqSetBdy [project=" + project + ", subject=" + subject + ", from=" + from + ", to=" + to + "]";
+    }
+}
+```
+
+### 2.2 修改Controller內的設定Method
+
+1. mailSet\(\)的引數括號內新增@RequestBody ReqSetBdy body
+2. 宣告要接收Request Body，由ReqSetBdy body物件承接
+
+```java
+@RequestMapping(value="/api/mail/set", method = RequestMethod.POST,  produces = "application/json")
+public @ResponseBody Response mailSet(@RequestBody ReqSetBdy body){
+    Response res = new Response();
+    res.code = "0000";
+
+    //將設定的值回傳驗證
+    res.msg = body.toString();
+    res.time = "2017-09-01";
+    res.datas = null;
+    return res;
+}
+```
+
+### 2.3 執行電文檢視查詢結果
+
+* Postman工具記得指定： Content-Type: application/json
+* 需有Request Body：
+
+```js
+{
+    "project": 0,
+    "subject": "新主旨",
+    "from": "rd1@gmail.com",
+    "to": "boss@gmail.com,user@gmail.com,user2@gmail.com"
+} 
+```
+
+執行結果如下
+
+```js
+{
+    "code": "0000",
+    "msg": "ReqSetBdy [project=0, subject=新主旨, from=rd1@gmail.com, to=boss@gmail.com,user@gmail.com,user2@gmail.com]",
+    "time": "2017-09-01",
+    "datas": null
+}
+```
+
+![](/assets/json_req_02.png)
 
 
 

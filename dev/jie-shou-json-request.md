@@ -4,6 +4,11 @@
 
 上行格式也為JSON，故須將Request Body內的JSON格式對應為基礎的Java類別。
 
+此段落目標為：
+
+* 於Controller內以Java類別接收上行電文內JSON格式之內容
+* 將內容解開回傳於Response內驗證是否接收成功
+
 ## 1. 查詢
 
 ---
@@ -128,7 +133,7 @@ public @ResponseBody Response mailSet(@RequestBody ReqSetBdy body){
     "subject": "新主旨",
     "from": "rd1@gmail.com",
     "to": "boss@gmail.com,user@gmail.com,user2@gmail.com"
-} 
+}
 ```
 
 執行結果如下
@@ -143,8 +148,4 @@ public @ResponseBody Response mailSet(@RequestBody ReqSetBdy body){
 ```
 
 ![](/assets/json_req_02.png)
-
-
-
-
 

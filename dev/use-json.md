@@ -2,7 +2,7 @@
 
 ---
 
-### 新增承載回應的類別
+### 1. 新增承載回應的類別
 
 1. 新增package com.example.demo.response
 2. 在該package中新增一個類別Response.java
@@ -24,13 +24,17 @@ public class Response {
 }
 ```
 
-### 修改Controller
+### 2. 修改Controller
 
 1. 將Method回傳類型改為Response
 2. 將Response實例化，並設定其內容
 3. 在該方法的註解定義處加入produces = "application/json"
 
-#### Get Code
+### 3. 查詢
+
+---
+
+#### 3.1 Get Code
 
 ```java
 @RequestMapping(value="/api/mail/get", method = RequestMethod.POST, produces = "application/json")
@@ -44,11 +48,15 @@ public @ResponseBody Response mailGet(){
 }
 ```
 
-#### Get 測試結果
+#### 3.2 測試結果
 
 ![](/assets/json_res_01.png)
 
-#### Set Code
+### 4. 設定
+
+---
+
+#### 4.1 Set Code
 
 ```java
 @RequestMapping(value="/api/mail/set", method = RequestMethod.POST,  produces = "application/json")
@@ -62,7 +70,7 @@ public @ResponseBody Response mailSet(){
 }
 ```
 
-#### Set 測試結果
+#### 4.2 測試結果
 
 ![](/assets/json_res_02.png)
 
